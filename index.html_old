@@ -5,16 +5,10 @@
 	License: pixelarity.com/license
 	And wew are respecting it :)
 	And now I added another line to check if GIT is following up :)
-<<<<<<< HEAD
-	This is another add xy
-
-=======
-	This file was edited by BK V2.0
->>>>>>> af5e9e8ac12985158f9bffa48d86be9764d2f058
 -->
 <html>
 	<head>
-		<title>CLOUDAMIZOR</title>
+		<title>Untitled</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -42,7 +36,7 @@
 							<header>
 								<h1>Hi. I'm <strong>Khalid Bencherifa</strong>.</h1>
 							</header>
-							<p>Amazon Web Services <b>Certified</b> Solution Architect Professional and Developer. 
+							<p>Amazon Web Services <b>Certified</b> Solution Architect and Developer. 
 							IT professional with a degree of <b>Master</b> of Science focused on Computer and Systems Sciences from Stockholm University.</p>
 							<a href="#work" class="button large scrolly">My Certifications</a>
 						</div>
