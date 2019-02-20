@@ -1,4 +1,20 @@
-task hello {
-doLast {
-println 'Hello world!'
-}}
+//declare a build task
+task build
+
+//declare a task to create a zip of the app
+task zip(type: Zip) {
+	from ('.') {
+		include "*"
+		include "assets/**"
+		include "images/**"
+	}
+	destinationDir(file("dist"))
+	baseName "personalwebsite"
+}
+
+//declare task dependencies
+build.dependsOn zip
+zip.dependsOn npm_build
+npm_build.dependsOn npm_test
+npm_test.dependsOn npmInstall
+npm_build.dependsOn npmInstall
